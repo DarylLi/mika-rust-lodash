@@ -17,7 +17,7 @@ export default defineConfig({
   plugins: [wasm(), topLevelAwait()],
 });
 
-// webpack配置中注，意webpack版本为^5.97.0，需要引入"@wasm-tool/wasm-pack-plugin"
+// webpack配置中注意，webpack版本为^5.97.0，需要引入"@wasm-tool/wasm-pack-plugin"
 const WasmPackPlugin = require("@wasm-tool/wasm-pack-plugin");
 const config = {
   plugins: [

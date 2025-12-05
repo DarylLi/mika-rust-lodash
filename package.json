@@ -1,0 +1,11 @@
+{
+  "name": "mika-rust-lodash",
+  "version": "1.0.0",
+  "description": "这是一个将 Rust 编译为 WebAssembly，为前端提供高性能计算能力的工具库，包含 20 个实用方法。",
+  "main": "pkg/mika_rust_lodash.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "daryl",
+  "license": "ISC"
+}
